@@ -20,7 +20,7 @@ useEffect(() => {
 
 
 async function getData() {
-  let response = await fetch('http://localhost:8000/articles')
+  let response = await fetch('https://my-blog-96.herokuapp.com/articles')
   response = await response.json()
   setData(response)
 }

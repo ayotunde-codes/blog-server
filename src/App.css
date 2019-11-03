@@ -1,0 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Header{
+  height: 100vh;
+  width: 100%;
+  font-family: noto sans;
+  background: url(./component/joseph.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;;
+  ;
+}
+.Nav{
+  width: 100%;
+  height: 50px;
+  position: relative;
+}
+.Nav h2{
+  font-size: 23px;
+  font-weight: bold;
+  color: #F6F4F2;
+  position: absolute;
+  top: 27px;
+  left: 140px;
+}
+.Nav ul{
+  font-size: 20px;
+  font-weight: bold;
+  color: #F6F4F2;
+  position: absolute;
+  top: 30px;
+  right: 140px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+
+}
+.Nav ul li{
+  margin-left: 55px;
+}
+.box-1{
+  width: 400px;
+  height: 50px;
+  background: #9BA359;
+  border-radius:15px ;
+  /* color: #9BA359; */
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 400px;
+  left: 35px;
+}
+.box-1 h2{
+  font-size: 20px;
+  font-weight: bold;;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #F6F4F2;
+  padding-top: 10px;
+}
+.box-2{
+  width: 400px;
+  height: 50px;
+  background: #295B55;
+  border-radius:15px ;
+  /* color: #9BA359; */
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 470px;
+  left: 155px;
+}
+.box-2 h2{
+  font-size: 20px;
+  font-weight: bold;;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #F6F4F2;
+  padding-top: 10px;
+}
+.article{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  margin: 10vh 5%;
+}
+.article .card-1{
+  width: 30%;
+  height: 90%;
+  box-shadow: 2px 4px 8px;
+  border: 0;
+}
+.article .card-1 img{
+  width: 100%;
+  height: 30%;
+  object-fit: cover;
+  object-position: center;
+}
+.article .card-1 h2{
+  width: 100%;
+  height: 10%;
+  text-align: left;
+  padding-left: 10px;
+}
+.article .card-1 p{
+  width: 100%;
+  height: 50%;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.article .card-2{
+  width: 30%;
+  height: 90%;
+  box-shadow: 2px 4px 8px;
+  border: 0;
+}
+.article .card-2 img{
+  width: 100%;
+  height: 30%;
+  object-fit: cover;
+  object-position: center;
+}
+.article .card-2 p{
+  width: 100%;
+  height: 50%;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.article .card-3 {
+  width: 30%;
+  height: 90%;
+  box-shadow: 2px 4px 8px;
+  border: 0;
+}
+.article .card-3 img{
+  width: 100%;
+  height: 30%;
+  object-fit: cover;
+  object-position: center;
+}
+.article .card-3 p{
+  width: 100%;
+  height: 50%;
+  text-align: left;
+  padding-left: 10px;
+}
